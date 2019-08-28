@@ -97,7 +97,7 @@ public class GenericStack<T>{
 	*/
 	public void swap(){
 		
-		if(!stackList.isEmpty() || stackList.size() >= 2){
+		if(!stackList.isEmpty() || stackList.size() < 2){
 			T buffer = stackList.get(0); 
 			stackList.set(0,stackList.get(1));
 			stackList.set(1,buffer);
