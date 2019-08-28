@@ -49,7 +49,7 @@ public class GenericStack<T>{
 	
 	/**
 	*	Push an item to the stack.
-	*	
+	*	@param value A value to push on stack.	
 	*/
 	public void push(T value){
 		if(stackList.isEmpty()){
@@ -60,7 +60,7 @@ public class GenericStack<T>{
 	
 	
 	/**
-	*	Remove the topmost items of the stack.
+	*	Remove the topmost item of the stack.
 	*/
 	public void pop(){
 		if(!stackList.isEmpty()){
@@ -109,7 +109,7 @@ public class GenericStack<T>{
 	}
 	
 	/**
-	*	Pop the top of the stack, then push two times.
+	*	Pop the top of the stack, then push it two times.
 	*
 	*/
 	public void duplicate(){
