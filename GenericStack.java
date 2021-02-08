@@ -156,10 +156,7 @@ public class GenericStack<T>{
 	
 	
 	
-	//dummy
-	public void printStack(){
-		stackList.forEach(s -> System.out.println(s));
-	}
+	
 	
 	
 	
