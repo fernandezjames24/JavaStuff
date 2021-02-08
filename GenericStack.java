@@ -4,7 +4,7 @@ import java.util.Collections;
 
 
 /**
-*	A generic linear data structure that enforces LIFO
+*	A generic linear data structure that enforces LIFO (Feb 08, 2021)
 *	(Last In, First Out).
 *
 */
