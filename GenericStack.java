@@ -105,6 +105,7 @@ public class GenericStack<T>{
 		}
 		else{
 			System.out.println("Unable to swap. Stack is empty or stack size is less than 2");
+			System.out.println("This is just a testing. Don't mind it");
 		}
 	}
 	
